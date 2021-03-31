@@ -1,3 +1,4 @@
 cython>=0.25
 sphinx>=1.7
 gevent
+pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
