@@ -5,7 +5,7 @@
 # Freetype has different metrics so tests are failing.
 # sudo and bash are required for the webp build script.
 
-FROM alpine
+FROM alpine:3
 USER root
 
 RUN apk --no-cache add python \
